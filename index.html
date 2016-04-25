@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Kiwi</title>
+	<link href="css/smoothness/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<script src="js/jquery-1.8.3.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+  <script>
+    $(document).ready( function() {
+      $("#radio1").click(function(){
+        $("#item2").hide();
+        $("#item1").fadeIn(0);
+      })
+      $("#radio2").click(function(){
+        $("#item1").hide();
+        $("#item2").fadeIn(0);
+      })
+      $( "#radio" ).buttonset();
+    });
+  </script>
+</head>
+
+<body>
+	<div class="main-window">
+		<div class="title">
+    		<span>Location Editor</span>
+    		<input type="button" class="fr square shrink-window"/>
+    		<input type="button" class="fr mr-1 square close-window"/>
+    	</div>
+    	<div class="content" style="height: 455px;">
+        <div id="radio" class="index-selector">
+          <input type="radio" id="radio1" name="radio"><label for="radio1">Add Location</label>
+          <input type="radio" id="radio2" name="radio"><label for="radio2">Edit Location</label>
+        </div>
+        <div class="clear"></div>
+        <div style="margin: 30px auto; width:191px;">
+          <select id="item1" onchange="location=this.options[this.selectedIndex].value;" class="w-2">
+            <option value="#">Add Location</option>
+            <option value="add-site.html">Site</option>
+            <option value="add-competitor.html">Competitor</option>
+            <option value="add-poi.html">POI</option>
+            <option value="add-trade-zone.html">Trade Zone</option>
+          </select>
+          <select onchange="location=this.options[this.selectedIndex].value;" class="w-2" style="display:none;">
+            <option value="#">Edit Location</option>
+            <option value="edit-site.html">Site</option>
+            <option value="edit-competitor.html">Competitor</option>
+            <option value="edit-poi.html">POI</option>
+            <option value="edit-trade-zone.html">Trade Zone</option>
+            <option value="edit-delivery.html">Delivery Area</option>
+          </select>
+        </div>
+        <div class="clear"/>
+    	</div>
+	</div>
+</body>
+</html>

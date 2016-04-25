@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Kiwi</title>
+	<link href="css/smoothness/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600" />
+	<script src="js/jquery-1.8.3.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+    $( "#datepicker, #datepicker2, #datepicker3, #datepicker4" ).datepicker();
+    $( document ).tooltip({
+      track: true
+    });
+  });
+  </script>
+</head>
+
+<body>
+	<div class="main-window">
+		<div class="title">
+      <span>Location Editor > Add POI</span>
+      <input type="button" class="fr square"/>
+      <input type="button" class="fr mr-1 square"/>
+    </div>
+      
+      <div class="content">
+        <h4>Name & Type</h4>
+          <select class="w-2 fl" title="Group">
+            <option selected>Group</option>
+            <option>Accessibility</option>
+            <option>Business</option>
+            <option>Retailing</option>
+            <option>Residential</option>
+            <option>Tourist</option>
+          </select>
+
+          <select class="w-2 fl mr-no" title="Category">
+            <option selected>Category</option>
+            <option value="MRT Station">MRT Station</option>
+            <option value="MRT Entrance">MRT Entrance</option>
+            <option value="Train Station">Train Station</option>
+            <option value="Bank">Bank</option>
+            <option value="College">College</option>
+            <option value="Academic Institute">Academic Institute</option>
+            <option value="Office Building">Office Building</option>
+            <option value="3C Shop">3C Shop</option>
+            <option value="Cinema">Cinema</option>
+            <option value="Coffee and Tea">Coffee and Tea</option>
+            <option value="Fast Food">Fast Food</option>
+            <option value="Luxury Good">Luxury Good</option>
+            <option value="Shopping Mall">Shopping Mall</option>
+            <option value="Hospital">Hospital</option>
+            <option value="Post Office">Post Office</option>
+            <option value="School">School</option>
+            <option value="Hotel">Hotel</option>
+          </select>
+
+          <div class="set">
+            <input type="text" class="w-2 fl" placeholder="Store Name (English)" title="Store Name (English)"/>
+            <input type="text" class="w-2 fl mr-no" placeholder="Store Name (Local)" title="Store Name (Local)"/>
+            <div class="clear"></div>
+          </div>
+
+          <div class="gap"></div>
+        <h4>Address & Details Info (optional)</h4>
+          <div class="set">
+            <input type="text" class="w-1" placeholder="Address (English)" title="Address (English)"/>
+            <input type="text" class="w-1" placeholder="Address (Local)" title="Address (Local)"/>
+            <input type="text" class="w-3 fl" placeholder="Province" title="Province"/>
+            <input type="text" class="w-3 fl" placeholder="City" title="City"/>
+            <input type="text" class="w-3 fl mr-no" placeholder="District" title="District"/>
+            <select class="w-2 fl" title="Status">
+              <option>Status</option>
+              <option>Current</option>
+              <option>Delete</option>
+            </select>
+            <input type="text" class="w-2 fl mr-no" placeholder="Telephone No." title="Telephone No."/>
+            <div class="clear"></div>
+          </div>
+          <div class="gap"></div>
+
+        <h4>Others</h4>
+          <div class="set">
+            <input type="text" class="w-2 fl mr-no" placeholder="Estimate Population" title="Estimate Population"></input>
+            <textarea rows="4" cols="50" class="w-1" placeholder="Notes" title="Notes"></textarea>
+            <div class="clear"></div>
+          </div>
+          <div class="line"></div>
+          <div class="set">
+            <input type="text" class="w-2 fl" placeholder="Creater" title="Creater" readonly value="Domino"/>
+            <input type="text" class="w-2 fl mr-no" placeholder="Creater" title="Creater" readonly value="03/03/2014"/>
+          </div>
+      </div>
+      <div class="clear"></div>
+    <div id="bottom">
+      <span class="fl"><a href="#">Delete POI</a></span>
+      <input type="button" class="fr" value="Save" onclick="location.href='index.html'"/>
+      <input type="button" class="fr mr-10" value="Cancel" onclick="location.href='index.html'"/>
+    </div>
+	</div>
+</body>
+</html>

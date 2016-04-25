@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Kiwi</title>
+	<link href="css/smoothness/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600" />
+	<script src="js/jquery-1.8.3.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+    $( "#datepicker, #datepicker2, #datepicker3, #datepicker4" ).datepicker();
+    $( document ).tooltip({
+      track: true
+    });
+  });
+  </script>
+</head>
+
+<body>
+	<div class="main-window">
+		<div class="title">
+      <span>Location Editor > Add Trade Zone</span>
+      <input type="button" class="fr square"/>
+      <input type="button" class="fr mr-1 square"/>
+    </div>
+
+    <div class="content">
+        <h4>Name, Status & Priority</h4>
+        <div class="set">
+          <input type="text" class="w-2 fl" placeholder="Trade Zone ID" title="Trade Zone ID"/>
+          <input type="text" class="w-2 fl" placeholder="Trade Zone Name (English)" title="Trade Zone Name (English)"/>
+          <input type="text" class="w-2 fl mr-no" placeholder="Trade Zone Name (Local)" title="Trade Zone Name (Local)"/>
+
+          <select class="w-3 fl" title="Trade Zone Area Type">
+            <option>Trade Zone Area Type</option>
+            <option>Pure Residential Area</option>
+            <option>Pure Business Area</option>
+            <option>Mixed Area</option>
+          </select>
+
+          <select class="w-3 fl" title="Potential">
+            <option selected>Potential</option>
+            <option>High</option>
+            <option>Medium</option>
+            <option>Low</option>
+          </select>
+
+          <select class="w-3 fl mr-no" title="Priority">
+            <option value="Priority">Priority</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+          </select>
+          <div class="clear"></div>
+        </div>
+        <div class="gap"></div>
+        <h4>Geographic Area</h4>
+        <div class="set">
+            <input type="text" class="w-3 fl" placeholder="Province" title="Province"/>
+            <input type="text" class="w-3 fl" placeholder="City" title="City"/>
+            <input type="text" class="w-3 fl mr-no" placeholder="District" title="District"/>
+            <textarea rows="4" cols="50" class="w-1" placeholder="Notes" title="Notes"></textarea>
+            <div class="clear"></div>
+        </div>
+          <div class="set">
+            <label class="w-1 fl">Define area by</label>
+            <div class="w-4 fl">
+              <input type="radio" name="group1"/> <span>Polygon</span><br/>
+            </div>
+            <div class="w-4 fl">
+              <input type="radio" name="group1"/> <span>Rectangle</span><br/>
+            </div>
+            <div class="w-2 fl mr-no">
+              <input type="radio" name="group1"/> <span>Point</span>
+              <input type="text" class="w-4 m-no" style="width:120px; padding:0 5px;" placeholder="Radius (km)"/>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="line"></div>
+          <div class="set">
+            <input type="text" class="w-2 fl" placeholder="Creater" title="Creater" readonly value="Domino"/>
+            <input type="text" class="w-2 fl mr-no" placeholder="Create Date" title="Create Date" readonly value="03/03/2014"/>
+          </div>
+
+    </div>
+
+    <div id="bottom">
+      <span class="fl"><a href="#">Delete Site</a></span>
+      <input type="button" class="fr" value="Save" onclick="location.href='index.html'"/>
+      <input type="button" class="fr mr-10" value="Cancel" onclick="location.href='index.html'"/>
+    </div>
+    
+	</div>
+</body>
+</html>

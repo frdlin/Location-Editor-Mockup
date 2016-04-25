@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Kiwi</title>
+	<link href="css/smoothness/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600" />
+	<script src="js/jquery-1.8.3.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+    $( "#datepicker, #datepicker2, #datepicker3, #datepicker4" ).datepicker();
+    $( document ).tooltip({
+      track: true
+    });
+  });
+  </script>
+</head>
+
+<body>
+	<div class="main-window">
+		<div class="title">
+      <span>Location Editor > Add Competitor</span>
+      <input type="button" class="fr square"/>
+      <input type="button" class="fr mr-1 square"/>
+    </div>
+
+      <div class="content">
+          <h4>Brand Information (must have)</h4>
+          <div class="set">
+            <select class="w-2 fl" title="Brand (English)">
+              <option selected>Brand (English)</option>
+              <option>Watsons</option>
+              <option>Gialen</option>
+              <option>Color 1000</option>
+              <option>Bonjour</option>
+              <option>SaSa</option>
+            </select>
+
+            <select class="w-2 fl mr-no" title="Brand (Local)">
+              <option selected>Brand (Local)</option>
+              <option>屈臣氏</option>
+              <option>娇兰佳人</option>
+              <option>千色店</option>
+              <option>卓悦</option>
+              <option>莎莎</option>
+            </select>
+          </div>
+
+          <div class="set">
+            <input type="text" class="w-2 fl" placeholder="Branch Name (English)" title="Branch Name (English)"/>
+            <input type="text" class="w-2 fl mr-no" placeholder="Branch Name (Local)" title="Branch Name (Local)"/>
+            <div class="clear"></div>
+          </div>
+
+          <div class="gap"></div>
+
+          <h4>Format & Status</h4>
+          <div class="set">
+            <select class="w-2 fl" title="Trade Zone Type" title="Trade Zone Type">
+              <option selected>Trade Zone Type</option>
+              <option>Residentia TZ</option>
+              <option>Commercial TZ</option>
+              <option>Mix TZ</option>
+              <option>Industrial TZ</option>
+            </select>
+            <select class="w-2 fl mr-no" title="Store Type" title="Store Type">
+              <option selected>Store Type</option>
+              <option>Mono Brand</option>
+              <option>Multi-Brand</option>
+              <option>Factory Outlet</option>
+            </select>
+            <select class="w-2 fl" title="Status" title="Status">
+              <option selected>Status</option>
+              <option>Current</option>
+              <option>Closed</option>
+              <option>Candidate</option>
+              <option>Confirmed</option>
+              <option>Archived</option>
+              <option>Rejected</option>
+            </select>
+            <div class="clear"></div>
+          </div>
+          <div class="gap"></div>
+
+          <h4>Address & Details Info</h4>
+          <div class="set">
+            <input type="text" class="w-3 fl" placeholder="Province" title="Province"/>
+            <input type="text" class="w-3 fl" placeholder="City" title="City"/>
+            <input type="text" class="w-3 fl mr-no" placeholder="District" title="District"/>
+            <input type="text" class="w-1" placeholder="Address" title="Address"/>
+            <div class="clear"></div>
+          </div>
+          <div class="line"></div>
+          <div class="set">
+            <input type="text" class="w-2 fl" id="datepicker" placeholder="Opening Date" title="Opening Date">
+            <input type="text" class="w-2 fl mr-no" placeholder="Telephone" title="Telephone"></input>
+            <textarea rows="4" cols="50" class="w-1" placeholder="Notes" title="Notes"></textarea>
+          </div>
+          <div class="line"></div>
+          <div class="set">
+            <input type="text" class="w-2 fl" placeholder="Creater" title="Creater" readonly value="Domino"/>
+            <input type="text" class="w-2 fl mr-no" placeholder="Create Date" title="Create Date" readonly value="03/03/2014"/>
+          </div>
+
+    </div>
+    <div id="bottom">
+      <span class="fl"><a href="#">Delete Competitor</a></span>
+      <input type="button" class="fr" value="Save" onclick="location.href='index.html'"/>
+      <input type="button" class="fr mr-10" value="Cancel" onclick="location.href='index.html'"/>
+    </div>
+	</div>
+</body>
+</html>

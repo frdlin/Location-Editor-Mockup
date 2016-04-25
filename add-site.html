@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Kiwi</title>
+	<link href="css/smoothness/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600" />
+	<script src="js/jquery-1.8.3.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+    $( "#datepicker, #datepicker2, #datepicker3, #datepicker4" ).datepicker();
+    $( document ).tooltip({
+      track: true
+    });
+  });
+  </script>
+</head>
+
+<body>
+	<div class="main-window">
+		<div class="title">
+      <span>Location Editor > Add Site</span>
+      <input type="button" class="fr square"/>
+      <input type="button" class="fr mr-1 square"/>
+    </div>
+
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1">Basic</a></li>
+        <li><a href="#tabs-2">Terms & Conditions</a></li>
+        <li><a href="#tabs-3">Performance</a></li>
+        <li><a href="#tabs-4">Assessment</a></li>
+        <li><a href="#tabs-5">Photos</a></li>
+      </ul>
+      
+      <div id="tabs-1">
+        <h4>Name & Service Area</h4>
+          <input type="text" class="w-2" placeholder="ID" title="ID"/>
+          <div class="set">
+            <input type="text" class="w-2 fl" placeholder="Name (English)" title="Name (English)"/>
+            <input type="text" class="w-2 fl mr-no" placeholder="Name (Local)" title="Name (Local)"/>
+            <div class="set">
+              <label class="w-1 fl">Define Service Area</label>
+              <div class="w-3 fl">
+                <input type="radio" name="group1" checked/> <span>Radius</span> 
+                <input type="text" class="w-4 m-no" style="width:35px; padding:0 5px;" placeholder="(m)"/>
+              </div>
+              <div class="w-3 fl">
+                <input type="radio" name="group1"/><span>  Polygon</span>
+              </div>
+              <div class="w-3 fl mr-no">
+                <input type="button" value="Site Redraw" class="bt-2"/>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="gap"></div>
+
+        <h4>Format, Status & Priority</h4>
+          <div class="set">
+            <select class="w-2 fl" title="Trade Zone Type">
+              <option selected>Trade Zone Area Type</option>
+              <option>Pure Residential Area</option>
+              <option>Pure Business Area</option>
+              <option>Mixed Area</option>
+            </select>
+            <select class="w-2 fl mr-no" title="Store Type">
+              <option selected>Store Type</option>
+              <option>Image Store</option>
+              <option>Super Store</option>
+              <option>Middle-range Store</option>
+              <option>Pure Delivery Store</option>
+            </select>
+            <select class="w-2 fl" title="Status">
+              <option selected>Status</option>
+              <option>Current</option>
+              <option>Closed</option>
+              <option>Signed and Decorated</option>
+              <option>Signed and not Decorated</option>
+              <option>Approval Site</option>
+              <option>Failed Site</option>
+              <option>BOD Site Pack</option>
+              <option>Negotiating</option>
+              <option>Detailed Site Check</option>
+              <option>Initial Discussion</option>
+            </select>
+            <div class="clear"></div>
+          </div>
+          <div class="gap"></div>
+
+        <h4>Open / Close Date</h4>
+          <div class="set">
+            <input type="text" class="w-2 fl" id="datepicker" placeholder="Open Date" title="Open Date">
+            <input type="text" class="w-2 fl mr-no" id="datepicker2" placeholder="Close Date" title="Close Date">
+            <div class="clear"></div>
+          </div>
+          <div class="gap"></div>
+
+        <h4>Address & Details</h4>
+          <div class="set">
+            <input type="text" class="w-1" placeholder="Address (E)" title="Address (E)"/>
+            <input type="text" class="w-1" placeholder="Address (L)" title="Address (L)"/>
+            <input type="text" class="w-3 fl" placeholder="Province" title="Province"/>
+            <input type="text" class="w-3 fl" placeholder="City" title="City"/>
+            <input type="text" class="w-3 fl mr-no" placeholder="District" title="District"/>
+            <input type="text" class="w-3 fl" placeholder="Floors #" title="Floors #"/>
+            <div class="clear"></div>
+          </div>
+          <div class="line"></div>
+          <div class="set">
+            <input type="text" class="w-2 fl" placeholder="Creater" title="Creater" readonly value="Domino"/>
+            <input type="text" class="w-2 fl mr-no" placeholder="Create Date" title="Create Date" readonly value="03/03/2014"/>
+          </div>
+      </div>
+
+      <div id="tabs-2">
+        <h4>Site Detail</h4>
+          <div class="set">
+            <input type="text" class="w-1" placeholder="Landlord Name" title="Landlord Name"/>
+            <input type="text" class="w-2 fl" placeholder="Gross Size(m2)" title="Gross Size(m2)"/>
+            <input type="text" class="w-2 fl mr-no" placeholder="Net Size(m2)" title="Net Size(m2)"/>
+            <div class="clear"></div>
+          </div>
+          <div class="gap"></div>
+        <h4>Duration</h4>
+          <div class="set">
+            <div class="w-1 fl m-no">
+              <input type="text" class="w-2 fl" placeholder="#" /><span>Years</span>
+            </div>
+            <input type="text" class="w-2 fl" id="datepicker3" placeholder="Commencement Date" title="Commencement Date"/>
+            <input type="text" class="w-2 fl mr-no" id="datepicker4" placeholder="Expiry Date" title="Expiry Date"/>
+            <div class="clear"></div>
+          </div>
+          <div class="gap"></div>
+
+        <h4>Terms</h4>
+          <div class="set">
+            <div class="w-2 fl">
+              <input type="text" class="w-4 fl m-no" placeholder="Basic Rent" title="Basic Rent"/><span>RMB/month</span>
+            </div>
+            <div class="w-2 fl mr-no">
+              <input type="text" class="w-4 fl m-no" placeholder="Turnover Rent" title="Turnover Rent"/><span>% month</span>
+            </div>
+            <div class="w-2 fl">
+              <input type="text" class="w-4 fl m-no" placeholder="Management Fee" title="Management Fee"/><span>RMB/month</span>
+            </div>
+            <div class="w-2 fl mr-no">
+              <input type="text" class="w-4 fl m-no" placeholder="Other Fee" title="Other Fee"/><span>RMB/month</span>
+            </div>
+            <div class="clear"></div>
+          </div>
+
+          <div class="gap"></div>
+
+        <h4>Other Information</h4>
+          <div class="set">
+            <select class="w-2 fl" title="Shopping center opened yet?">
+              <option>Shopping center opened yet?</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+            <select class="w-2 fl mr-no" title="The major traffic located at?">
+              <option>The major traffic located at?</option>
+              <option>2F</option>
+              <option>No</option>
+            </select>
+            <div class="set">
+              <label class="w-1 fl">Anchor tenants:</label>
+              <div class="w-4 fl">
+                <input type="checkbox" name="group1"/> <span>McDonalds</span>
+              </div>
+              <div class="w-4 fl">
+                <input type="checkbox" name="group1"/> <span>KFC</span>
+              </div>
+              <div class="w-4 fl">
+                <input type="checkbox" name="group1"/> <span>Pizza Hut</span>
+              </div>
+              <div class="w-4 fl mr-no">
+                <input type="checkbox" name="group1"/> <span>Food Court</span>
+              </div>
+              <div class="w-4 fl">
+                <input type="checkbox" name="group1"/> <span>Supermarket</span>
+              </div>
+              <div class="w-4 fl">
+                <input type="checkbox" name="group1"/> <span>Uniqlo</span>
+              </div>
+              <div class="w-4 fl">
+                <input type="checkbox" name="group1"/> <span>H&M</span>
+              </div>
+            </div>
+            <textarea rows="4" cols="50" class="w-1" placeholder="Notes" title="Notes"/></textarea>
+            <div class="clear"></div>
+          </div>
+      </div>
+
+      <div id="tabs-3">
+        <h4>Ops Projection</h4>
+          <div class="set">
+            <input type="text" class="w-1 fl" placeholder="Project PSD(K)" title="Project PSD(K)"/>
+            <div class="clear"></div>
+          </div>
+          <div class="gap"></div>
+        <h4>Counters Projection</h4>
+          <div class="set">
+            <input type="text" class="w-1 fl" placeholder="Project Counters" title="Project Counters"/>
+            <div class="clear"></div>
+          </div>
+          <div class="gap"></div>
+        <h4>PSD</h4>
+          <div class="set">
+            <input type="text" class="w-1 fl" placeholder="PSD(K)" title="PSD(K)"/>
+            <div class="clear"></div>
+          </div>
+      </div>
+
+      <div id="tabs-4">
+        <h4>Real Estate License</h4>
+          <div class="set">
+            <select class="w-2 fl" title="Fire License">
+              <option>Fire License</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+            <select class="w-2 fl mr-no" title="Property Ownership">
+              <option>Property Ownership</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+            <textarea rows="4" cols="50" class="w-1" placeholder="What is the main problem of this place?" title="What is the main problem of this place?"/></textarea>
+            <div class="clear"></div>
+          </div>
+          <div class="gap"></div>
+        <h4>Preliminary Assessment</h4>
+          <div class="set">
+            <select class="w-3 fl" title="Priority">
+              <option>Priority</option>
+              <option>A</option>
+              <option>B</option>
+              <option>C</option>
+              <option>D</option>
+              <option>E</option>
+            </select>
+            <select class="w-3 fl" title="Area">
+              <option>Area</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            <select class="w-3 fl mr-no" title="Store Shape">
+              <option>Store Shape</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            <select class="w-3 fl" title="Store Layout">
+              <option>Store Layout</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            <select class="w-3 fl" title="Location">
+              <option>Location</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            <select class="w-3 fl mr-no" title="Store Image">
+              <option>Store Image</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            <select class="w-3 fl" title="Profitability">
+              <option>Profitability</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            <select class="w-3 fl" title="Potential">
+              <option>Potential</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+      </div>
+
+      <div id="tabs-5">
+        <h4>Photo Upload</h4>
+          <div class="set">
+            <div class="fl">
+              <div class="photo_container"></div>
+              <span class="fr mr-10">Site Photo</span>
+            </div>
+            <div class="fl">
+              <div class="photo_container"></div>
+              <span class="fr mr-10">Site Panorama Photo</span>
+            </div>
+            <div class="fl">
+              <div class="photo_container"></div>
+              <span class="fr mr-10">Parking Place Photo</span>
+            </div>
+            <div class="fl">
+              <div class="photo_container"></div>
+              <span class="fr mr-10">Site Floor Plan</span>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="gap"></div>
+        <h4>Upload Image File</h4>
+          <div class="set">
+            <select class="w-3 fl" title="Photo Type">
+              <option>Photo Type</option>
+              <option>Site Photo</option>
+              <option>Site Panorama</option>
+              <option>Parking Place</option>
+              <option>Site Layout</option>
+            </select>
+            <input type="file"/>
+            <div class="clear"></div>
+          </div>
+      </div>
+
+    </div>
+
+    <div id="bottom">
+      <span class="fl"><a href="#">Delete Site</a></span>
+      <input type="button" class="fr" value="Save" onclick="location.href='index.html'"/>
+      <input type="button" class="fr mr-10" value="Cancel" onclick="location.href='index.html'"/>
+    </div>
+    
+	</div>
+</body>
+</html>
