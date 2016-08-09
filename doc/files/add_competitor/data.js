@@ -1,0 +1,2001 @@
+﻿$axure.loadCurrentPage({
+  "url":"add_competitor.html",
+  "generationDate":new Date(1402980736376.03),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"ClickOnHandle",
+"lianjiexuhao",
+"kuan",
+"temp",
+"tpcc_wz",
+"tpcc_zt",
+"tpcc_kd",
+"FileName",
+"DroplistOption"],
+  "page":{
+    "packageId":"ea3eb52ccbea4cddb95df2caecbceb5e",
+    "type":"Axure:Page",
+    "name":"Add Competitor",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onLoad":{
+        "description":"OnLoad",
+        "cases":[{
+            "description":"用例 1",
+            "isNewIfGroup":false,
+            "actions":[{
+                "action":"setFunction",
+                "description":"Set is selected of tab 1 equal to &quot;true&quot;",
+                "expr":{
+                  "exprType":"block",
+                  "subExprs":[{
+                      "exprType":"fcall",
+                      "functionName":"SetCheckState",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["bd384c4096d2445eb0a51bc73bec8a58"]},
+{
+                          "exprType":"stringLiteral",
+                          "value":"true",
+                          "stos":[]}]}]}}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"f44ec2b813f549c790fb6184112ee525",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "location":{
+              "x":50,
+              "y":25},
+            "size":{
+              "width":320,
+              "height":405}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"715efa145d374248ae481ef919b9b0e0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "location":{
+                  "x":50,
+                  "y":25},
+                "size":{
+                  "width":320,
+                  "height":405}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/add_competitor/u0.png"}},
+{
+          "id":"a0e626ef4ac0407b8ee1b4cee7ef00a0",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"12px",
+            "fontWeight":"bold",
+            "location":{
+              "x":60,
+              "y":35},
+            "size":{
+              "width":220,
+              "height":15},
+            "rotation":"0",
+            "textRotation":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8303951ae06f445cb83f156788927afe",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Negreta', 'Arial'",
+                "fontSize":"12px",
+                "fontWeight":"bold",
+                "location":{
+                  "x":60,
+                  "y":35},
+                "size":{
+                  "width":220,
+                  "height":15},
+                "rotation":"0",
+                "textRotation":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"166653c742534c0ea6ed9cbd726d9135",
+          "label":"sketchy box, medium",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "location":{
+              "x":69,
+              "y":77},
+            "size":{
+              "width":281,
+              "height":308}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ab7b160b3fe84e8ba96bd69d7abad2e0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "location":{
+                  "x":69,
+                  "y":77},
+                "size":{
+                  "width":281,
+                  "height":308}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/add_site/sketchy_box__medium_u4.png"}},
+{
+          "id":"dee444d8e09e4235aa90b99b955d9943",
+          "label":"tabs panel",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":74,
+              "y":81},
+            "size":{
+              "width":280,
+              "height":300}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"verticalAsNeeded",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"bcee4b902f6e42aeb7c00432cd3ced25",
+              "label":"tab 1 basic",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"48dae6bd01054e4fbed196a18ac75f0b",
+                  "label":"A2.Tab1 Title",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":10,
+                      "y":10},
+                    "size":{
+                      "width":180,
+                      "height":19},
+                    "rotation":"0",
+                    "textRotation":"0"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"093be824e1e542b09f796885969747b8",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":10,
+                          "y":10},
+                        "size":{
+                          "width":180,
+                          "height":19},
+                        "rotation":"0",
+                        "textRotation":"0"},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}},
+{
+                  "id":"56b8b0cb2d67496f9f1685171198150d",
+                  "label":"dlst.01.brand_e",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"comboBox",
+                  "styleType":"comboBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "location":{
+                      "x":10,
+                      "y":29},
+                    "size":{
+                      "width":120,
+                      "height":22}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onFocus":{
+                      "description":"OnFocus",
+                      "cases":[{
+                          "description":"用例 1<br> (If selected option of This equals &quot;361 Degree&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetSelectedOption",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"361 Degree",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set selected option of dlst02.brand_l equal to &quot;361度&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetSelectedOption",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["d17d6c6c1c8040629288d964b5c1c98e"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"361度",
+                                        "stos":[]}]}]}}]},
+{
+                          "description":"用例 2<br> (Else If selected option of This equals &quot;adidas&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetSelectedOption",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"adidas",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set selected option of dlst02.brand_l equal to &quot;阿迪达斯&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetSelectedOption",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["d17d6c6c1c8040629288d964b5c1c98e"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"阿迪达斯",
+                                        "stos":[]}]}]}}]},
+{
+                          "description":"用例 3<br> (Else If selected option of This equals &quot;Anta&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetSelectedOption",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"Anta",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set selected option of dlst02.brand_l equal to &quot;安踏&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetSelectedOption",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["d17d6c6c1c8040629288d964b5c1c98e"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"安踏",
+                                        "stos":[]}]}]}}]},
+{
+                          "description":"用例 4<br> (Else If selected option of This equals &quot;Nike&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetSelectedOption",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"Nike",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set selected option of dlst02.brand_l equal to &quot;耐克&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetSelectedOption",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["d17d6c6c1c8040629288d964b5c1c98e"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"耐克",
+                                        "stos":[]}]}]}}]},
+{
+                          "description":"用例 5<br> (Else If selected option of This equals &quot;Uniqlo&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetSelectedOption",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"Uniqlo",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set selected option of dlst02.brand_l equal to &quot;优衣裤&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetSelectedOption",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["d17d6c6c1c8040629288d964b5c1c98e"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"优衣裤",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true},
+{
+                  "id":"d17d6c6c1c8040629288d964b5c1c98e",
+                  "label":"dlst02.brand_l",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"comboBox",
+                  "styleType":"comboBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                    "location":{
+                      "x":138,
+                      "y":29},
+                    "size":{
+                      "width":120,
+                      "height":22}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"07553fc75fce451d8475897469a449f5",
+                  "label":"tbox.name_e",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF999999,
+                      "opacity":1},
+                    "location":{
+                      "x":10,
+                      "y":61},
+                    "size":{
+                      "width":120,
+                      "height":22}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onFocus":{
+                      "description":"OnFocus",
+                      "cases":[{
+                          "description":"用例 1<br> (If text on This equals &quot;Branch Name (EN)&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"Branch Name (EN)",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set text on tbox.name_e equal to &quot;&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetFormText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["07553fc75fce451d8475897469a449f5"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"",
+                                        "stos":[]}]}]}}]}]},
+                    "onLostFocus":{
+                      "description":"OnLostFocus",
+                      "cases":[{
+                          "description":"用例 1<br> (If text on This equals &quot;&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set Text",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[]}},
+{
+                              "action":"setFunction",
+                              "description":"Set text on tbox.name_e equal to &quot;Branch Name (EN)&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetFormText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["07553fc75fce451d8475897469a449f5"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"Branch Name (EN)",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true},
+{
+                  "id":"1c82f7a73ba54073b9f36cd0d332bd29",
+                  "label":"tbox.name_l",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF999999,
+                      "opacity":1},
+                    "location":{
+                      "x":138,
+                      "y":61},
+                    "size":{
+                      "width":120,
+                      "height":22}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onFocus":{
+                      "description":"OnFocus",
+                      "cases":[{
+                          "description":"用例 1<br> (If text on This equals &quot;Branch Name (Local)&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"Branch Name (Local)",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set Text",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[]}},
+{
+                              "action":"setFunction",
+                              "description":"Set text on tbox.name_l equal to &quot;&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetFormText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["1c82f7a73ba54073b9f36cd0d332bd29"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"",
+                                        "stos":[]}]}]}}]}]},
+                    "onLostFocus":{
+                      "description":"OnLostFocus",
+                      "cases":[{
+                          "description":"用例 1<br> (If text on This equals &quot;&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set text on tbox.name_l equal to &quot;Branch Name (Local)&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetFormText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["1c82f7a73ba54073b9f36cd0d332bd29"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"Branch Name (Local)",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true},
+{
+                  "id":"e76e198f28784f7e949abd7c3fed3c7a",
+                  "label":"Tab1.title3",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":10,
+                      "y":111},
+                    "size":{
+                      "width":101,
+                      "height":16}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"782561a7c4a942abbfb9059bf4d3a707",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":10,
+                          "y":111},
+                        "size":{
+                          "width":101,
+                          "height":16}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}},
+{
+                  "id":"776c90d79290407b814c65712e679c13",
+                  "label":"lst.tz",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"comboBox",
+                  "styleType":"comboBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "location":{
+                      "x":10,
+                      "y":136},
+                    "size":{
+                      "width":120,
+                      "height":22}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"42fea043e30544e9bcec4d49b129d6dd",
+                  "label":"",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"comboBox",
+                  "styleType":"comboBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "location":{
+                      "x":138,
+                      "y":136},
+                    "size":{
+                      "width":120,
+                      "height":22}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"95bcc018ac0e470c8367ce783f843701",
+                  "label":"",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"comboBox",
+                  "styleType":"comboBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "location":{
+                      "x":10,
+                      "y":167},
+                    "size":{
+                      "width":120,
+                      "height":22}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"a6dcbbbbb5d2418f8b9c6bf5025ea617",
+                  "label":"",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"horizontalLine",
+                  "styleType":"horizontalLine",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":10,
+                      "y":204},
+                    "size":{
+                      "width":250,
+                      "height":10},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFF999999}},
+                  "adaptiveStyles":{
+},
+                  "images":{
+                    "start~":"images/add_site/u17_start.png",
+                    "end~":"images/add_site/u17_end.png",
+                    "line~":"images/add_competitor/u18_line.png"}},
+{
+                  "id":"fa98959f167140de8e75579bc348eba0",
+                  "label":"",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":10,
+                      "y":224},
+                    "size":{
+                      "width":123,
+                      "height":16}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"0a5c172098dc4196872a91c23485bb12",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":10,
+                          "y":224},
+                        "size":{
+                          "width":123,
+                          "height":16}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}},
+{
+                  "id":"936233b2568244f287ac96fb77979ffd",
+                  "label":"tbox.address",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF666666,
+                      "opacity":1},
+                    "location":{
+                      "x":10,
+                      "y":276},
+                    "size":{
+                      "width":232,
+                      "height":22}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onFocus":{
+                      "description":"OnFocus",
+                      "cases":[{
+                          "description":"用例 1<br> (If text on This equals &quot;Address&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"Address",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set text on tbox.address equal to &quot;&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetFormText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["936233b2568244f287ac96fb77979ffd"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"",
+                                        "stos":[]}]}]}}]}]},
+                    "onLostFocus":{
+                      "description":"OnLostFocus",
+                      "cases":[{
+                          "description":"用例 1<br> (If text on This equals &quot;&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set Text",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[]}},
+{
+                              "action":"setFunction",
+                              "description":"Set text on tbox.address equal to &quot;Address&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetFormText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["936233b2568244f287ac96fb77979ffd"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"Address",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true},
+{
+                  "id":"2dacb45a5d3b49438cddea1df5ca397d",
+                  "label":"tbox.region",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF666666,
+                      "opacity":1},
+                    "location":{
+                      "x":10,
+                      "y":244},
+                    "size":{
+                      "width":70,
+                      "height":22}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onFocus":{
+                      "description":"OnFocus",
+                      "cases":[{
+                          "description":"用例 1<br> (If text on This equals &quot;Region&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"Region",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set text on tbox.region equal to &quot;&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetFormText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["2dacb45a5d3b49438cddea1df5ca397d"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"",
+                                        "stos":[]}]}]}}]}]},
+                    "onLostFocus":{
+                      "description":"OnLostFocus",
+                      "cases":[{
+                          "description":"用例 1<br> (If text on This equals &quot;&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set text on tbox.region equal to &quot;Region&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetFormText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["2dacb45a5d3b49438cddea1df5ca397d"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"Region",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true},
+{
+                  "id":"8c0b569bbd13411badd19e795350026c",
+                  "label":"tbox.city",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF666666,
+                      "opacity":1},
+                    "location":{
+                      "x":90,
+                      "y":244},
+                    "size":{
+                      "width":70,
+                      "height":22}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onFocus":{
+                      "description":"OnFocus",
+                      "cases":[{
+                          "description":"用例 1<br> (If text on This equals &quot;City&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"City",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set text on tbox.city equal to &quot;&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetFormText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["8c0b569bbd13411badd19e795350026c"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"",
+                                        "stos":[]}]}]}}]}]},
+                    "onLostFocus":{
+                      "description":"OnLostFocus",
+                      "cases":[{
+                          "description":"用例 1<br> (If text on This equals &quot;&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set text on tbox.city equal to &quot;City&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetFormText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["8c0b569bbd13411badd19e795350026c"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"City",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true},
+{
+                  "id":"6280231ba50841babddd49a956b4fbc9",
+                  "label":"tbox.district",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF666666,
+                      "opacity":1},
+                    "location":{
+                      "x":170,
+                      "y":244},
+                    "size":{
+                      "width":70,
+                      "height":22}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onFocus":{
+                      "description":"OnFocus",
+                      "cases":[{
+                          "description":"用例 1<br> (If text on This equals &quot;District&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"District",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set text on tbox.district equal to &quot;&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetFormText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["6280231ba50841babddd49a956b4fbc9"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"",
+                                        "stos":[]}]}]}}]}]},
+                    "onLostFocus":{
+                      "description":"OnLostFocus",
+                      "cases":[{
+                          "description":"用例 1<br> (If text on This equals &quot;&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set text on tbox.district equal to &quot;District&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetFormText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["6280231ba50841babddd49a956b4fbc9"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"District",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true},
+{
+                  "id":"55f89085ff38411c88b881f5c02fad86",
+                  "label":"",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"horizontalLine",
+                  "styleType":"horizontalLine",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":10,
+                      "y":449},
+                    "size":{
+                      "width":250,
+                      "height":10},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFF999999}},
+                  "adaptiveStyles":{
+},
+                  "images":{
+                    "start~":"images/add_site/u17_start.png",
+                    "end~":"images/add_site/u17_end.png",
+                    "line~":"images/add_competitor/u18_line.png"}},
+{
+                  "id":"a8e5fb7226cd410da543367661f4b4fb",
+                  "label":"",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":10,
+                      "y":459},
+                    "size":{
+                      "width":43,
+                      "height":16}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"39c10f394e254915b6e5c1fde344da45",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":10,
+                          "y":459},
+                        "size":{
+                          "width":43,
+                          "height":16}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}},
+{
+                  "id":"7f796768b8a14e709a52cd2c2c42ba7f",
+                  "label":"",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":132,
+                      "y":461},
+                    "size":{
+                      "width":70,
+                      "height":16}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"7382b935abea454097d4f9f84efff86d",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":132,
+                          "y":461},
+                        "size":{
+                          "width":70,
+                          "height":16}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}},
+{
+                  "id":"2ecd0a076846451087893298987164f2",
+                  "label":"",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "disabled":true,
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":10,
+                      "y":476},
+                    "size":{
+                      "width":100,
+                      "height":22}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"61158106aaa7468894c3ed8e757c2d45",
+                  "label":"",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "disabled":true,
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":132,
+                      "y":476},
+                    "size":{
+                      "width":100,
+                      "height":22}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"4067286884a14c368fb3a26c919ed1da",
+                  "label":"",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"horizontalLine",
+                  "styleType":"horizontalLine",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":10,
+                      "y":93},
+                    "size":{
+                      "width":250,
+                      "height":10},
+                    "borderFill":{
+                      "fillType":"solid",
+                      "color":0xFF999999}},
+                  "adaptiveStyles":{
+},
+                  "images":{
+                    "start~":"images/add_site/u17_start.png",
+                    "end~":"images/add_site/u17_end.png",
+                    "line~":"images/add_competitor/u18_line.png"}},
+{
+                  "id":"596c5e67763d464f9795da98f6587d67",
+                  "label":"日期输入框",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF999999,
+                      "opacity":1},
+                    "location":{
+                      "x":10,
+                      "y":313},
+                    "size":{
+                      "width":95,
+                      "height":22}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"097d3acc7ab644cf885048325629ec59",
+                  "label":"",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":106,
+                      "y":313},
+                    "size":{
+                      "width":22,
+                      "height":19},
+                    "borderWidth":"-1"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"9ecec33d8c534319aa45cd74714ae847",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":106,
+                          "y":313},
+                        "size":{
+                          "width":22,
+                          "height":19},
+                        "borderWidth":"-1"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"用例 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"fadeWidget",
+                              "description":"Show/Hide Widget",
+                              "objectsToFades":[]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/add_competitor/u34.png"}},
+{
+                  "id":"a1009798cf5e48f7b10d03a9d2a5748e",
+                  "label":"tbox.tel",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"textBox",
+                  "styleType":"textBox",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF999999,
+                      "opacity":1},
+                    "location":{
+                      "x":138,
+                      "y":313},
+                    "size":{
+                      "width":120,
+                      "height":22}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onFocus":{
+                      "description":"OnFocus",
+                      "cases":[{
+                          "description":"用例 1<br> (If text on This equals &quot;Telephone #&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"Telephone #",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set text on tbox.tel equal to &quot;&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetFormText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["a1009798cf5e48f7b10d03a9d2a5748e"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"",
+                                        "stos":[]}]}]}}]}]},
+                    "onLostFocus":{
+                      "description":"OnLostFocus",
+                      "cases":[{
+                          "description":"用例 1<br> (If text on This equals &quot;&quot;)",
+                          "isNewIfGroup":false,
+                          "condition":{
+                            "exprType":"binaryOp",
+                            "op":"==",
+                            "leftExpr":{
+                              "exprType":"fcall",
+                              "functionName":"GetWidgetText",
+                              "arguments":[{
+                                  "exprType":"pathLiteral",
+                                  "isThis":true,
+                                  "isFocused":false,
+                                  "isTarget":false}]},
+                            "rightExpr":{
+                              "exprType":"stringLiteral",
+                              "value":"",
+                              "stos":[]}},
+                          "actions":[{
+                              "action":"setFunction",
+                              "description":"Set text on tbox.tel equal to &quot;Telephone #&quot;",
+                              "expr":{
+                                "exprType":"block",
+                                "subExprs":[{
+                                    "exprType":"fcall",
+                                    "functionName":"SetWidgetFormText",
+                                    "arguments":[{
+                                        "exprType":"pathLiteral",
+                                        "isThis":false,
+                                        "isFocused":false,
+                                        "isTarget":false,
+                                        "value":["a1009798cf5e48f7b10d03a9d2a5748e"]},
+{
+                                        "exprType":"stringLiteral",
+                                        "value":"Telephone #",
+                                        "stos":[]}]}]}}]}]}},
+                  "tabbable":true},
+{
+                  "id":"fcbae167aac04c5cb1065866495bd89e",
+                  "label":"",
+                  "parentDynamicPanel":"dee444d8e09e4235aa90b99b955d9943",
+                  "panelIndex":0,
+                  "type":"textArea",
+                  "styleType":"textArea",
+                  "visible":true,
+                  "style":{
+                    "fontSize":"11px",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF333333,
+                      "opacity":1},
+                    "location":{
+                      "x":12,
+                      "y":345},
+                    "size":{
+                      "width":250,
+                      "height":100}},
+                  "adaptiveStyles":{
+}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
+{
+          "id":"bd384c4096d2445eb0a51bc73bec8a58",
+          "label":"tab 1",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "stateStyles":{
+              "selected":{
+},
+              "disabled":{
+}},
+            "location":{
+              "x":72,
+              "y":60},
+            "size":{
+              "width":56,
+              "height":21}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5127c17572ff435f8ab5ba478bca2628",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "stateStyles":{
+                  "selected":{
+},
+                  "disabled":{
+}},
+                "location":{
+                  "x":72,
+                  "y":60},
+                "size":{
+                  "width":56,
+                  "height":21}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"Set tabs panel to tab 1 basic",
+                      "panelsToStates":[{
+                          "panelPath":["dee444d8e09e4235aa90b99b955d9943"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":1,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]},
+{
+                      "action":"setFunction",
+                      "description":"Set is selected of tab 1 equal to &quot;true&quot;, and<br> is selected of Unidentified equal to &quot;false&quot;, and<br> is selected of Unidentified equal to &quot;false&quot;, and<br> is selected of Unidentified equal to &quot;false&quot;, and<br> is selected of Unidentified equal to &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["bd384c4096d2445eb0a51bc73bec8a58"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/add_competitor/tab_1_u38.png",
+            "selected~":"images/add_competitor/tab_1_u38_selected.png",
+            "disabled~":"images/add_competitor/tab_1_u38.png"}},
+{
+          "id":"62ba97635d224b088f707992c4ba205b",
+          "label":"tab 1 label",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "stateStyles":{
+              "mouseOver":{
+                "underline":true,
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF0000FF,
+                  "opacity":1}}},
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "location":{
+              "x":74,
+              "y":64},
+            "size":{
+              "width":52,
+              "height":16},
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF},
+            "cornerRadiusTopLeft":"1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0e956b0bfe7e43dd9e6184a11991eb32",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "stateStyles":{
+                  "mouseOver":{
+                    "underline":true,
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFF0000FF,
+                      "opacity":1}}},
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "location":{
+                  "x":74,
+                  "y":64},
+                "size":{
+                  "width":52,
+                  "height":16},
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "cornerRadiusTopLeft":"1"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setPanelState",
+                      "description":"Set tabs panel to tab 1 basic",
+                      "panelsToStates":[{
+                          "panelPath":["dee444d8e09e4235aa90b99b955d9943"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":1,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]},
+{
+                      "action":"setFunction",
+                      "description":"Set is selected of tab 1 equal to &quot;true&quot;, and<br> is selected of Unidentified equal to &quot;false&quot;, and<br> is selected of Unidentified equal to &quot;false&quot;, and<br> is selected of Unidentified equal to &quot;false&quot;, and<br> is selected of Unidentified equal to &quot;false&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["bd384c4096d2445eb0a51bc73bec8a58"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif",
+            "mouseOver~":"resources/images/transparent.gif"}},
+{
+          "id":"97ad5999d7134126b67825943624020d",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":280,
+              "y":390},
+            "size":{
+              "width":60,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"a15f361dee984c35b3e438aa3b494b9d",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":210,
+              "y":390},
+            "size":{
+              "width":60,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Link in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "includeVariables":true},
+                      "linkType":"current"},
+{
+                      "action":"closeCurrent",
+                      "description":"Close Current Window"}]}]}},
+          "tabbable":true},
+{
+          "id":"ac74125a518a4b1da6d2a15b33466871",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "underline":true,
+            "stateStyles":{
+              "mouseOver":{
+                "underline":true}},
+            "location":{
+              "x":69,
+              "y":395},
+            "size":{
+              "width":105,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c316505feedc491bbb938bb0ea884565",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "underline":true,
+                "stateStyles":{
+                  "mouseOver":{
+                    "underline":true}},
+                "location":{
+                  "x":69,
+                  "y":395},
+                "size":{
+                  "width":105,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"Open Link in Popup Window",
+                      "target":{
+                        "targetType":"page",
+                        "includeVariables":true},
+                      "linkType":"popup",
+                      "popup":{
+                        "left":100,
+                        "top":100,
+                        "width":500,
+                        "height":500,
+                        "toolbar":false,
+                        "scrollbars":false,
+                        "location":false,
+                        "status":false,
+                        "menubar":false,
+                        "directories":false,
+                        "resizable":false,
+                        "centerwindow":true}},
+{
+                      "action":"closeCurrent",
+                      "description":"Close Current Window"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"resources/images/transparent.gif",
+            "mouseOver~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "f44ec2b813f549c790fb6184112ee525":{
+      "scriptId":"u0"},
+    "715efa145d374248ae481ef919b9b0e0":{
+      "scriptId":"u1"},
+    "a0e626ef4ac0407b8ee1b4cee7ef00a0":{
+      "scriptId":"u2"},
+    "8303951ae06f445cb83f156788927afe":{
+      "scriptId":"u3"},
+    "166653c742534c0ea6ed9cbd726d9135":{
+      "scriptId":"u4"},
+    "ab7b160b3fe84e8ba96bd69d7abad2e0":{
+      "scriptId":"u5"},
+    "dee444d8e09e4235aa90b99b955d9943":{
+      "scriptId":"u6"},
+    "48dae6bd01054e4fbed196a18ac75f0b":{
+      "scriptId":"u7"},
+    "093be824e1e542b09f796885969747b8":{
+      "scriptId":"u8"},
+    "56b8b0cb2d67496f9f1685171198150d":{
+      "scriptId":"u9"},
+    "d17d6c6c1c8040629288d964b5c1c98e":{
+      "scriptId":"u10"},
+    "07553fc75fce451d8475897469a449f5":{
+      "scriptId":"u11"},
+    "1c82f7a73ba54073b9f36cd0d332bd29":{
+      "scriptId":"u12"},
+    "e76e198f28784f7e949abd7c3fed3c7a":{
+      "scriptId":"u13"},
+    "782561a7c4a942abbfb9059bf4d3a707":{
+      "scriptId":"u14"},
+    "776c90d79290407b814c65712e679c13":{
+      "scriptId":"u15"},
+    "42fea043e30544e9bcec4d49b129d6dd":{
+      "scriptId":"u16"},
+    "95bcc018ac0e470c8367ce783f843701":{
+      "scriptId":"u17"},
+    "a6dcbbbbb5d2418f8b9c6bf5025ea617":{
+      "scriptId":"u18"},
+    "fa98959f167140de8e75579bc348eba0":{
+      "scriptId":"u19"},
+    "0a5c172098dc4196872a91c23485bb12":{
+      "scriptId":"u20"},
+    "936233b2568244f287ac96fb77979ffd":{
+      "scriptId":"u21"},
+    "2dacb45a5d3b49438cddea1df5ca397d":{
+      "scriptId":"u22"},
+    "8c0b569bbd13411badd19e795350026c":{
+      "scriptId":"u23"},
+    "6280231ba50841babddd49a956b4fbc9":{
+      "scriptId":"u24"},
+    "55f89085ff38411c88b881f5c02fad86":{
+      "scriptId":"u25"},
+    "a8e5fb7226cd410da543367661f4b4fb":{
+      "scriptId":"u26"},
+    "39c10f394e254915b6e5c1fde344da45":{
+      "scriptId":"u27"},
+    "7f796768b8a14e709a52cd2c2c42ba7f":{
+      "scriptId":"u28"},
+    "7382b935abea454097d4f9f84efff86d":{
+      "scriptId":"u29"},
+    "2ecd0a076846451087893298987164f2":{
+      "scriptId":"u30"},
+    "61158106aaa7468894c3ed8e757c2d45":{
+      "scriptId":"u31"},
+    "4067286884a14c368fb3a26c919ed1da":{
+      "scriptId":"u32"},
+    "596c5e67763d464f9795da98f6587d67":{
+      "scriptId":"u33"},
+    "097d3acc7ab644cf885048325629ec59":{
+      "scriptId":"u34"},
+    "9ecec33d8c534319aa45cd74714ae847":{
+      "scriptId":"u35"},
+    "a1009798cf5e48f7b10d03a9d2a5748e":{
+      "scriptId":"u36"},
+    "fcbae167aac04c5cb1065866495bd89e":{
+      "scriptId":"u37"},
+    "bd384c4096d2445eb0a51bc73bec8a58":{
+      "scriptId":"u38"},
+    "5127c17572ff435f8ab5ba478bca2628":{
+      "scriptId":"u39"},
+    "62ba97635d224b088f707992c4ba205b":{
+      "scriptId":"u40"},
+    "0e956b0bfe7e43dd9e6184a11991eb32":{
+      "scriptId":"u41"},
+    "97ad5999d7134126b67825943624020d":{
+      "scriptId":"u42"},
+    "a15f361dee984c35b3e438aa3b494b9d":{
+      "scriptId":"u43"},
+    "ac74125a518a4b1da6d2a15b33466871":{
+      "scriptId":"u44"},
+    "c316505feedc491bbb938bb0ea884565":{
+      "scriptId":"u45"}}});
